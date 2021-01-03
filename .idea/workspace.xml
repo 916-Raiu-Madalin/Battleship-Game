@@ -36,7 +36,29 @@
       <recent name="C:\Users\raium\Desktop\cursuri\fp\fp github c\seminar\a11-916-Raiu-Madalin\src\battleship\Ui" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="UI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="a11-916-Raiu-Madalin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Ui/UI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="a11-916-Raiu-Madalin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,9 +81,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="a11-916-Raiu-Madalin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\raium\Desktop\pythonProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.Unittests in tests.py" />
+      <item itemvalue="Python.UI" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Unittests in tests.py" />
+        <item itemvalue="Python.UI" />
       </list>
     </recent_temporary>
   </component>
@@ -76,6 +121,7 @@
       <workItem from="1609169894992" duration="9521000" />
       <workItem from="1609258422698" duration="6781000" />
       <workItem from="1609336750036" duration="19347000" />
+      <workItem from="1609694384604" duration="9562000" />
     </task>
     <servers />
   </component>
@@ -87,40 +133,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609263444991" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609345860821">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609698791678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1280.-257.1280.984@0.0.1366.728" timestamp="1609345860821" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609261149232" />
-    <state width="1323" height="570" key="GridCell.Tab.0.bottom" timestamp="1609377694567">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609698791678" />
+    <state x="-1339" y="18" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1609699585366">
+      <screen x="-1280" y="-258" width="1280" height="984" />
+    </state>
+    <state x="-1339" y="18" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609699585366" />
+    <state width="1323" height="570" key="GridCell.Tab.0.bottom" timestamp="1609715990973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="570" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-257.1280.984@0.0.1366.728" timestamp="1609377694567" />
-    <state width="1323" height="570" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609289159132" />
-    <state width="1323" height="570" key="GridCell.Tab.0.center" timestamp="1609377694566">
+    <state width="1323" height="570" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609715990973" />
+    <state width="1323" height="570" key="GridCell.Tab.0.center" timestamp="1609715990973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="570" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-257.1280.984@0.0.1366.728" timestamp="1609377694566" />
-    <state width="1323" height="570" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609289159132" />
-    <state width="1323" height="570" key="GridCell.Tab.0.left" timestamp="1609377694566">
+    <state width="1323" height="570" key="GridCell.Tab.0.center/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609715990973" />
+    <state width="1323" height="570" key="GridCell.Tab.0.left" timestamp="1609715990973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="570" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-257.1280.984@0.0.1366.728" timestamp="1609377694566" />
-    <state width="1323" height="570" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609289159132" />
-    <state width="1323" height="570" key="GridCell.Tab.0.right" timestamp="1609377694566">
+    <state width="1323" height="570" key="GridCell.Tab.0.left/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609715990973" />
+    <state width="1323" height="570" key="GridCell.Tab.0.right" timestamp="1609715990973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="570" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-257.1280.984@0.0.1366.728" timestamp="1609377694566" />
-    <state width="1323" height="570" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609289159132" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609342292615">
+    <state width="1323" height="570" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609715990973" />
+    <state x="-1280" y="-258" width="977" height="715" maximized="true" key="dock-window-1" timestamp="1609700887989">
+      <screen x="-1280" y="-258" width="1280" height="984" />
+    </state>
+    <state x="-1280" y="-258" width="977" height="715" maximized="true" key="dock-window-1/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609700887989" />
+    <state x="-1280" y="-258" width="977" height="715" maximized="true" key="dock-window-2" timestamp="1609707517051">
+      <screen x="-1280" y="-258" width="1280" height="984" />
+    </state>
+    <state x="-1280" y="-258" width="977" height="715" maximized="true" key="dock-window-2/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609707517051" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609707279889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1280.-257.1280.984@0.0.1366.728" timestamp="1609342292615" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609174882149" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1280.-258.1280.984@0.0.1366.728" timestamp="1609707279889" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/a11_916_Raiu_Madalin$main.coverage" NAME="main Coverage Results" MODIFIED="1609377232788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/a11_916_Raiu_Madalin$main.coverage" NAME="main Coverage Results" MODIFIED="1609708074348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/a11_916_Raiu_Madalin$grid.coverage" NAME="grid Coverage Results" MODIFIED="1609179288553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/battleship" />
     <SUITE FILE_PATH="coverage/a11_916_Raiu_Madalin$battleship.coverage" NAME="battleship Coverage Results" MODIFIED="1609259520435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/battleship" />
+    <SUITE FILE_PATH="coverage/a11_916_Raiu_Madalin$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1609707495924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
   </component>
 </project>

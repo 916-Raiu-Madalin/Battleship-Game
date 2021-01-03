@@ -7,61 +7,8 @@ class Grid:
                 row.append("")
             self.grid.append(row)
 
-    def show_grid(self):
-        # add the top coordinates for the grid
-        print("-" * 45)
-        line = ""
-        for i in range(10):
-            line += "| " + str(i) + " "
-        print(line + "||   |")
-        print("-" * 45)
-
-        # add the cells
-        for y in range(len(self.grid)):
-            line = ""
-            for x in self.grid[y]:
-                if x == "":
-                    line += "| - "
-                elif x == "miss":
-                    line += "| " + '\033[91m'+"X "+'\033[0m'
-                elif x == "hit":
-                    line += "| "+ '\033[32m'+"O "+'\033[0m'
-                else:
-                    line += "| - "
-
-            # add the side coordinates
-            line += "|| " + str(y) + " |\n"
-
-            for x in self.grid[y]:
-                line += "____"
-            line += "_____"
-            print(line)
-
-    def show_player_grid(self):
-        # add the top coordinates for the grid
-        print("-" * 45)
-        line = ""
-        for i in range(10):
-            line += "| " + str(i) + " "
-        print(line + "||   |")
-        print("-" * 45)
-
-        # add the cells
-        for y in range(len(self.grid)):
-            line = ""
-            for x in self.grid[y]:
-                if x == "":
-                    line += "| - "
-                else:
-                    line += "| " + str(x) + " "
-
-            # add the side coordinates
-            line += "|| " + str(y) + " |\n"
-
-            for x in self.grid[y]:
-                line += "____"
-            line += "_____"
-            print(line)
+    def get_grid(self):
+        return self.grid
 
     def is_empty(self, x, y):
         # returns if a grid is empty or not
@@ -89,47 +36,39 @@ class Grid:
 
         return True
 
-    def isDefeated(self, side):
-        if side == 0:
-            for y in range(len(self.grid)):
-                for x in self.grid[y]:
-                    if x!="" and x!="miss" and x!="hit":
-                        if x >= 0 and x <= 9:
-                            return False
-            return True
-        if side == 1:
-            for y in range(len(self.grid)):
-                for x in self.grid[y]:
-                    if x!="" and x!="miss" and x!="hit":
-                        if x >= 0 and x <= 9:
-                            return False
-            return True
+    def  isDefeated(self):
+        for y in range(len(self.grid)):
+            for x in self.grid[y]:
+                if x != "" and x != "miss" and x != "hit":
+                    if x >= 0 and x <= 9:
+                        return False
+        return True
 
     def playershoot(self, x, y):
         if self.grid[x][y] == "hit":
-            return 'You already shot here and it was a hit',False
+            return 'You already shot here and it was a hit', False
         if self.grid[x][y] == "miss":
-            return 'You already shot here and it was a miss',False
+            return 'You already shot here and it was a miss', False
 
         if self.grid[x][y] == "":
             self.grid[x][y] = "miss"
-            return 'miss',False
+            return 'miss', False
 
         if self.grid[x][y] >= 0 and self.grid[x][y] <= 9:
             cop = self.grid[x][y]
             self.grid[x][y] = "hit"
-            return 'hit',self.shipSunk(cop)
+            return 'hit', self.shipSunk(cop)
 
     def computershoot(self, x, y):
         if self.grid[x][y] == "":
             self.grid[x][y] = 'miss'
-            return 'miss',False
+            return 'miss', False
         if self.grid[x][y] >= 0 and self.grid[x][y] <= 9:
-            cop= self.grid[x][y]
+            cop = self.grid[x][y]
             self.grid[x][y] = "hit"
-            return 'hit',self.shipSunk(cop)
+            return 'hit', self.shipSunk(cop)
 
-    def shipSunk(self,number):
+    def shipSunk(self, number):
         for y in range(len(self.grid)):
             for x in self.grid[y]:
                 if x == number:
